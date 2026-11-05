@@ -1,0 +1,4 @@
+# Used only if you deploy with the Supabase CLI. The function checks admin sign-in itself,
+# and the website's public confirmation calls carry no login, so the gateway JWT check is off.
+[functions.send-email]
+verify_jwt = false

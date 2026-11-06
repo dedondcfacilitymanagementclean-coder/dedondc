@@ -5,6 +5,7 @@ import ServicesState from '../components/ServicesState'
 import { useServices, serviceImageUrl } from '../lib/useServices'
 import { useProjects } from '../lib/useProjects'
 import Testimonials from '../components/Testimonials'
+import HeroVideo from '../components/HeroVideo'
 import { useSettings } from '../lib/settings'
 
 const STEPS = [
@@ -25,6 +26,7 @@ export default function Home() {
         description="Residential, commercial, deep and post-construction cleaning, janitorial, fumigation and facility management services in Asaba, Delta State."
       />
       <section className="hero">
+        <HeroVideo />
         <div className="wrap hero-grid">
           <div>
             <h1>{home.hero_title}</h1>
